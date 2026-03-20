@@ -1,0 +1,49 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: #18181b;
+    margin-top: 100px;
+}
+#contador{
+    background-color: #262626;
+    padding: 12px;
+    border-radius: 10px;
+}
+#contador div{
+    display: flex;
+    align-items: center;
+}
+#valor{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+button{
+    border: none;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: opacity .3s;
+}
+button :hover{
+    opacity: 8;
+}
+.botao{
+        width: 40px;
+        height: 40px;
+        font-size: 30px;
+        background-color: #18181b;
+}
+#reset{
+    width: 100%;
+    font-size: 16px;
+    background-color: blue;
+}

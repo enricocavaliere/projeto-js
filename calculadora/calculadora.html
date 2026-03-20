@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadora.css".css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" disabled id="display">
+    <div class="caixaBotao">
+        
+        <button onclick="clean()">C</button>
+        <button onclick="back()">⌫</button>
+        <button onclick="inserToDisplay('/')">/</button>
+        <button onclick="inserToDisplay('*')">*</button>
+        <button onclick="inserToDisplay('7')">7</button>
+        <button onclick="inserToDisplay('8')">8</button>
+        <button onclick="inserToDisplay('9')">9</button>
+        <button onclick="inserToDisplay('-')">-</button>
+        <button onclick="inserToDisplay('4')">4</button>
+        <button onclick="inserToDisplay('5')">5</button>
+        <button onclick="inserToDisplay('6')">6</button>
+        <button onclick="inserToDisplay('+')">+</button>
+        <button onclick="inserToDisplay('1')">1</button>
+        <button onclick="inserToDisplay('2')">2</button>
+        <button onclick="inserToDisplay('3')">3</button>
+        <button class="btnZero" onclick="inserToDisplay('0')">0</button>
+        <button onclick="inserToDisplay('.')">.</button>
+        <button class="btnResult" onclick="result('=')">=</button>
+        
+    </div>
+    </div>
+<script src="calculadora.js"></script>
+</body>
+</html>
